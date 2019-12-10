@@ -5,7 +5,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
   * mapPartitionsWithIndex算子
   */
-object Spark02_Oper3 {
+object Spark04_Oper3 {
   def main(args: Array[String]): Unit = {
     //local模式
     //创建SparkConf对象
