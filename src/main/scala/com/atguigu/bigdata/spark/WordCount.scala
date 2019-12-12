@@ -34,5 +34,8 @@ object WordCount {
 
     result.foreach(println)
 
+    //停止
+    sc.stop()
+
   }
 }
