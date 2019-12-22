@@ -13,7 +13,7 @@ object Spark24_Oper23 {
     val sparkConf = new SparkConf().setMaster("local[*]").setAppName("Test")
     val sc = new SparkContext(sparkConf)
     //2.读取数据生成 RDD： TS， Province， City， User， AD
-    val line = sc.textFile("in\\agent.log")
+    val line = sc.textFile("in/agent.log")
     //3.按照最小粒度聚合： ((Province,AD),1)
     val provinceAdAndOne = line.map { x =>
       val fields: Array[String] = x.split(" ")
