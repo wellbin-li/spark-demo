@@ -6,7 +6,7 @@ import org.apache.spark.{SparkConf, SparkContext}
   * 需求：统计出每一个省份广告被点击次数的 TOP3
   *
   */
-object Spark24_Oper23 {
+object Spark24_Demo {
   def main(args: Array[String]): Unit = {
 
     //1.初始化 spark 配置信息并建立与 spark 的连接
