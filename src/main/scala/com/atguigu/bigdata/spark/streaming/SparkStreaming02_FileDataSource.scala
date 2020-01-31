@@ -12,7 +12,7 @@ object SparkStreaming02_FileDataSource {
   def main(args: Array[String]): Unit = {
 
     // Spark配置对象
-    val sparkConf: SparkConf = new SparkConf().setMaster("local[*]").setAppName("SparkStreaming01_WordCount")
+    val sparkConf: SparkConf = new SparkConf().setMaster("local[*]").setAppName("SparkStreaming02_FileDataSource")
 
     // 实时数据分析环境对象
     // 采集周期：以指定的时间为周期采集实时数据
